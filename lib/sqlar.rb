@@ -41,6 +41,7 @@ module Sqlar
     
     def insert(blob)
       SQLite3::Database.open(@db_name) do |db|
+        blob.name[0] = ''
         db.execute("INSERT INTO sqlar (name, mode, mtime, sz,data) VALUES (?,?,?,?,?)",blob.name,blob.mode,blob.mtime,blob.sz,blob.data)
       end
     end

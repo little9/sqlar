@@ -1,6 +1,6 @@
 # Sqlar
 
-This is a Ruby Gem for createing SQLite Archive compatiable files.
+This is a Ruby Gem for createing [SQLite Archiver](https://www.sqlite.org/sqlar) compatiable files.
 
 SQLite Archiver is a tool for embedding files in a SQLite database. 
 
@@ -50,7 +50,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/sqlar.
+Bug reports and pull requests are welcome on GitHub at https://github.com/little9/sqlar.
 
 
 ## License
