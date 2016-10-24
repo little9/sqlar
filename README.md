@@ -22,6 +22,25 @@ Or install it yourself as:
 
 ## Usage
 
+Inserting a file into a sqlar:
+
+```ruby
+sqlar = Sqlar::Sqlar.new("test.sqlite3")
+blob = sqlar.get_blob("test/test.jpg")
+sqlar.insert(blob)	
+```
+Extracting files from a sqlar:
+```ruby
+sqlar = Sqlar::Sqlar.new("test/existing_test.sqlite")
+sqlar.extract_all()
+```
+
+Extracting a specific file from a sqlar:
+
+```ruby
+sqlar = Sqlar::Sqlar.new("test/existing_test.sqlite")
+sqlar.extract('Users/jlittle/Desktop/0-0-0.jpg')
+```
 
 ## Development
 
