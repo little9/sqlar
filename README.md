@@ -1,8 +1,8 @@
 # Sqlar
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/sqlar`. To experiment with that code, run `bin/console` for an interactive prompt.
+This is a Ruby Gem for createing SQLite Archive compatiable files.
 
-TODO: Delete this and the text above, and describe your gem
+SQLite Archiver is a tool for embedding files in a SQLite database. 
 
 ## Installation
 
@@ -22,7 +22,6 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
 
 ## Development
 

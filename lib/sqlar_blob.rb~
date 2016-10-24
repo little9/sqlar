@@ -1,9 +1,0 @@
-module Sqlar
-  class SqlarBlob
-    attr_accessor :name 
-    attr_acessor :mode
-    attr_acessor :mtime 
-    attr_acessor :sz
-    attr_acessor :blob
-  end
-end
